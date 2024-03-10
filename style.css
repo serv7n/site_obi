@@ -1,0 +1,87 @@
+
+.color  { color: white; }
+.color0 { color: black; }
+.color1 { color: #7375a5; }
+.color2 { color: #21a3a3; }
+.color3 { color: #13c8b5; }
+.color4 { color: #6cf3d5; }
+.color5 { color: #2b364a; }
+.color6 { color: #002fff; }
+
+body{
+  font-family: Arial, Helvetica, sans-serif!important;
+}
+.navbar {
+  background-color: #2b364a!important;
+}
+.container-fluid {
+  display: flex;
+  align-items: center !important;
+  justify-content: center !important;
+}
+
+.col-md-5 img {
+  height: 450px;
+  width: 450px;
+  border-radius: 20px;
+}
+@media screen and (max-width: 768px){
+  .col-md-5{
+    display: flex;
+    justify-content: center !important; 
+    align-items: center!important;
+  }
+  .col-md-5 img {
+    height: 350px;
+    width: 350px;
+    border-radius: 20px;
+   
+  }
+  
+}
+
+@media screen and (max-width: 576px){
+  .col-md-5 img {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+   
+  }
+}
+
+
+@media screen and (max-width: 1200px){
+  .col-md-5{
+    display: flex;
+    justify-content: center!important; 
+    align-items: end!important;
+  }
+  .col-md-5 img {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+   
+  }
+}
+.lead {
+  text-align: justify;
+}
+
+.featurette .text-body-secondary {
+  color: #1ca39e !important;
+}
+
+
+
+.titulo_marketing{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.Inscrição{
+  margin-top: 30px;
+}
+
+.inscrição_obi{
+  margin-top: 20px;
+}
